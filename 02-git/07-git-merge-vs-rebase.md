@@ -5,7 +5,7 @@ What is the difference between `git rebase` and `git merge`? When would you use 
 This question evaluates your understanding of how Git manages branch history and collaboration. It’s a common topic in interviews because both commands integrate changes from one branch to another — but they do it in very different ways.
 
 ## ✅ Answer  
-- `git merge` integrates changes by creating a new merge commit, preserving the history of both branches.(order of coomits are according to time when they made)
+- `git merge` integrates changes by creating a new merge commit, preserving the history of both branches.(order of commits are according to time when they made)
 - `git rebase` moves your branch on top of another, rewriting commit history to create a linear sequence.(order of commits are not in order )
 
 ### 📘 Detailed Explanation  
